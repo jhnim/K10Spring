@@ -10,6 +10,8 @@
 </head>
 <body>
 <div class="container">
+<!-- 1/6 -->
+
 	<h2>스프링 MVC 시작하기</h2>
 	
 	<!--  
@@ -65,6 +67,8 @@
 			requsetMapping시작페이지 바로가기
 		</a>
 	</li>
+	
+<!-- 1/7 -->
 	
 	<!-- 컨트롤러 : ValidateController.java -->
 	<h2>폼데이터 검증하기  - Validater</h2>
