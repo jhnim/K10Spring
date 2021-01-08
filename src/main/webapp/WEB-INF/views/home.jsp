@@ -95,7 +95,6 @@
 			어벤져스 히어로
 		</a>
 	</li>
-	
 	<li>
 		<a href="di/myAnnotation" target="_blank">
 			어노테이션을 이용한 DI활용
@@ -108,14 +107,13 @@
 		<a href="environment/main1" target="_blank">
 			외부파일 참조하기 1(Enviroment객체 사용)
 		</a>
-	</li>
-	
+	</li>	
+<!-- 1/8 -->	
 	<li>
 		<a href="environment/main2" target="_blank">
 			외부파일 참조하기 2(XML설정파일 사용)
 		</a>
 	</li>
-	
 	<li>
 		<a href="environment/main3" target="_blank">
 			외부파일 참조하기 3(어노테이션 사용)
@@ -128,18 +126,18 @@
 			upload폴더의 물리적 경로 확인하기
 		</a>
 	</li>
-	
 	<li>
 		<a href="./fileUpload/uploadForm.do">
 			파일업로드 폼
 		</a>
 	</li>
-	
 	<li>
 		<a href="./fileUpload/uploadList.do" target="_blank">
 			파일목록보기
 		</a>
 	</li>
+	
+<!--  -->
 </div>
 </body>
 </html>

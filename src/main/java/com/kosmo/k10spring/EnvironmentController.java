@@ -28,7 +28,7 @@ public class EnvironmentController {
 		
 		//3.외부파일을 읽어올 준비를 한다.
 		MutablePropertySources propertySources = env.getPropertySources();
-		
+		//1+2+3 합쳐서 이케쓸 수 있음.
 		//new GenericApplicationContext().getEnvironment().getPropertySources();
 		
 		String adminIdStr= "";
