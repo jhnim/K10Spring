@@ -46,7 +46,7 @@ public class RequestMappingController {
 	 		동시에 처리할 수 있는 클래스
 	 		- View설정 : 참조변수.setViewName("뷰의경로 및 파일명")
 	 		- model객체에 데이터 저장 : 참조변수.addObject("속성명", "속성값")
-	 			최종적으로 뷰를 호출할때는 ModelAndView 차마조변수를 return한다.
+	 			최종적으로 뷰를 호출할때는 ModelAndView 참조변수를 return한다.
 	 */
 	@RequestMapping(method = RequestMethod.POST, value = "/requestMapping/postLogin.do")
 	public ModelAndView postLogin( @RequestParam("user_id") String id, @RequestParam("user_pw") String pw) {
