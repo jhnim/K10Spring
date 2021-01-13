@@ -9,7 +9,7 @@ import component.scan.MyService;
 @Controller
 public class ServiceController {
 	
-	//서비스 객체를 자동주입 받는다. 쌤ㅁ
+	//서비스 객체를 자동주입 받는다.
 	MyService myService;
 	@Autowired
 	public void setMyService(MyService myService) {
