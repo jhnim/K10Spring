@@ -127,7 +127,22 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>        
+		</dependency>   
+		
+		<!--
+			트랜잭션은 DB작업이 기본이 되야 하므로 JDBC사용을 위한 의존설정을 한다. 
+		-->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>4.1.4.RELEASE</version>
+		</dependency>
+	     
 	</dependencies>
     <build>
         <plugins>
