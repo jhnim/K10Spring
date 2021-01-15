@@ -142,6 +142,22 @@
 	<li>
 		<a href="./service/myService.do">바로가기1</a>
 	</li>
+	
+<!-- 1/14 -->
+	<!--  -->
+	<h3>트램잭션(Transaction)</h3>
+	<li>
+		<a href="transaction/buyTicketMain.do" target="_blank">
+			티켓구매하기1
+		</a>
+	</li><!-- 2단계에서는 1단게의 컨트롤러 부분은 주석처리됨 -->
+	
+	<li>
+		<a href="transaction/buyTicketTpl.do" target="_blank">
+			티켓구매하기2
+		</a>
+	</li>
+	
 </div>
 </body>
 </html>
