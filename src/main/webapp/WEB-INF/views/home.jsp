@@ -144,7 +144,6 @@
 	</li>
 	
 <!-- 1/14 -->
-	<!--  -->
 	<h3>트램잭션(Transaction)</h3>
 	<li>
 		<a href="transaction/buyTicketMain.do" target="_blank">
@@ -158,6 +157,13 @@
 		</a>
 	</li>
 	
+<!-- 1/15 -->
+	<h2>JSON 사용하기(RestAPI)</h2>
+	<li>
+		<a href="./jsonUse/jsonView.do" target="_blank">
+			@ResponseBody 어노테이션을 이용한 JSON데이터 보기
+		</a>
+	</li>
 </div>
 </body>
 </html>

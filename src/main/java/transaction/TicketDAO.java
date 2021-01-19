@@ -32,9 +32,8 @@ public class TicketDAO {
 	 */
 	
 	//생성자
-	public TicketDAO() {
-		
-		System.out.println("TicketDAO생성자 호출");
+	public TicketDAO() {		
+		System.out.println("TicketDAO생성자 호출"+template);
 	}
 	
 	//티켓구매와 결제를 위한 메소드
